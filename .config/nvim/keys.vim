@@ -11,7 +11,7 @@ nnoremap <C-j> :m .+1<CR>==
 nnoremap <C-k> :m .-2<CR>==
 
 " shortcut to open init.vim
-nnoremap <leader>ev :vsp $MYVIMRC<CR>
+nnoremap <leader>ev :vs ~/.config/nvim/keys.vim<CR>
 
 " Reload Vim config
 nnoremap <Leader>ir :so ~/.config/nvim/init.vim<CR>
