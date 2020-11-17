@@ -6,6 +6,7 @@ set nobackup
 set nowritebackup
 set clipboard=unnamedplus
 set textwidth=80
+set shell=/usr/local/bin/zsh
 filetype plugin indent on    " required
 syntax enable
 " Stop concealing quotes in JSON
